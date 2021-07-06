@@ -12,7 +12,7 @@ func rotate_ints(ints []int) {
 }
 
 // space is O(n)
-// This function left rotate as user inut number of shifts with O(n) space complexity
+// This function left rotate as user input the number of left rotations with O(n) space complexity
 func rotate(s []int,shift int)[]int{  
 	var newdata []int
 	shift = shift%len(s)
